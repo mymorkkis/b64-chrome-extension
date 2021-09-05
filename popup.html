@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <title>Base64 Encoder & Decoder</title>
+  </head>
+
+  <body>
+    <main>
+      <div class="encode-div">
+        <h3>Base64 Encode</h3>
+        <input id="encode-input" spellcheck="false" />
+      </div>
+
+      <div class="decode-div">
+        <h3>Base64 Decode</h3>
+        <input id="decode-input" spellcheck="false" />
+      </div>
+    </main>
+
+    <script src='popup.js'></script>
+  </body>
+</html>
+
+<style>
+  body {
+    margin: 0px;
+  }
+
+  main {
+    width: 500px;
+    display: inline-block;
+    text-align: center;
+    margin: 0px;
+  }
+
+  h3 {
+    text-align: center;
+    margin: 0px;
+    padding-top: 15px;
+  }
+
+  input {
+    margin: 15px 0px;
+    padding: 5px 0px;
+    text-align: center;
+    width: 300px;
+  }
+
+  .encode-div {
+    background-color: aliceblue;
+    padding-bottom: 10px;
+  }
+
+  .decode-div {
+    background-color: antiquewhite;
+    padding-bottom: 10px;
+  }
+
+  .error {
+    color: red;
+  }
+</style>
+
