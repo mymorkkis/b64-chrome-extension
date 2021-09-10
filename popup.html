@@ -10,12 +10,9 @@
 
   <body>
     <main>
-      <div class="encode-div">
+      <div>
         <h3>Base64 Encode</h3>
-        <input id="encode-input" spellcheck="false" />
-      </div>
-
-      <div class="decode-div">
+        <input id="encode-input" spellcheck="false" autofocus />
         <h3>Base64 Decode</h3>
         <input id="decode-input" spellcheck="false" />
       </div>
@@ -37,10 +34,16 @@
     margin: 0px;
   }
 
+  div {
+    padding: 10px 0px 20px 0px;
+    background-image: linear-gradient(#3b3c36, #1a2421);
+  }
+
   h3 {
     text-align: center;
     margin: 0px;
     padding-top: 15px;
+    color: #c0c0c0;
   }
 
   input {
@@ -50,18 +53,13 @@
     width: 300px;
   }
 
-  .encode-div {
-    background-color: aliceblue;
-    padding-bottom: 10px;
-  }
-
-  .decode-div {
-    background-color: antiquewhite;
-    padding-bottom: 10px;
+  input, textarea {
+    color: #e5e4e2;
+    background-color: #2f4f4f;
   }
 
   .error {
-    color: red;
+    color: #e34234;
   }
 </style>
 
